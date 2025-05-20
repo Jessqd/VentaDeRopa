@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Mi primera página</title>
+  <link rel="stylesheet" href="estilos.css"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#catalogo">Catálogo</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+      <li>
+        <a href="https://www.instagram.com/#reactivated" target="_blank">
+          <i class="fab fa-instagram"></i> Instagram 
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="inicio">
+  <h1 >Venta de ropa</h1>
+  <p>Aqui encontrarás las mejores marcas de ropa, económicas y con los estilos más recientes. 
+    Puedes escoger entre distintos diseños.</p>
+    <img src="imagen1.jpeg" alt="imagen inicio" width="300"/>
+    <a href="https://www.instagram.com/#reactivated" target="_blank">
+      <i class="fab fa-instagram"></i> Síguenos en Instagram
+    </a>
+  </section>
+    
+  <section id="catalogo">
+    <h2>Catálogo de productos</h2>
+
+  <div class="contenedor">
+
+    <div class="producto">
+        <img src="blusa1.jpeg" alt="Blusa 1" />
+        <h3>Blusa elegante</h3>
+        <p>$25.000</p>
+        <a href="https://wa.me/573243272424?text=Hola%20quiero%20comprar%20la%20Blusa%20elegante" target="_blank"  class="boton-wsp" >
+           <i class="fab fa-whatsapp"></i> Comprar
+      </a>
+    </div>
+    <div class="producto">
+        <img src="blusa2.jpeg" alt="Blusa 2" />
+        <h3>Blusa casual</h3>
+        <p>$22.000</p>
+        <a href="https://wa.me/573243272424?text=Hola%20quiero%20comprar%20la%20Blusa%20casual" target="_blank" class="boton-wsp" >
+          <i class="fab fa-whatsapp"></i> Comprar
+        </a>
+        </div>
+    <div class="producto">
+        <img src="blusa3.jpeg" alt="Blusa 3" />
+        <h3>Blusa de fiesta</h3>
+        <p>$30.000</p>
+        <a href="https://wa.me/573243272424?text=Hola%20quiero%20comprar%20la%20Blusa%20de%20fiesta" target="_blank" class="boton-wsp">
+          <i class="fab fa-whatsapp"></i> Comprar
+        </a>
+        </div>
+    <div class="producto">
+        <img src="pantalon1.jpeg" alt="Pantalón 1" />
+        <h3>Pantalón clásico</h3>
+        <p>$30.000</p> 
+        <a href="https://wa.me/573243272424?text=Hola%20quiero%20comprar%20el%20Pantalón%20clásico" target="_blank" class="boton-wsp">
+          <i class="fab fa-whatsapp"></i> Comprar
+        </a>
+    </div>
+    <div class="producto">
+        <img src="pantalon2.jpeg" alt="Pantalón 2" />
+        <h3>Pantalón moderno</h3>
+        <p>$35.000</p>
+        <a href="https://wa.me/573243272424?text=Hola%20quiero%20comprar%20el%20Pantalón%20moderno" target="_blank" class="boton-wsp">
+          <i class="fab fa-whatsapp"></i> Comprar
+        </a>
+    </div>
+    <div class="producto">
+        <img src="pantalon3.jpeg" alt="Pantalón 3">
+        <h3>Pantalón ajustado</h3>
+        <p>$32.000</p>
+        <a href="https://wa.me/573243272424?text=Hola%20quiero%20comprar%20el%20Pantalón%20ajustado" target="_blank" class="boton-wsp">
+          <i class="fab fa-whatsapp"></i> Comprar
+        </a>
+    </div>
+    <div class="producto">
+        <img src="chaqueta1.jpeg" alt="Chaqueta 1">
+        <h3>Chaqueta informal</h3>
+        <p>$40.000</p>
+        <a href="https://wa.me/573243272424?text=Hola%20quiero%20comprar%20la%20Chaqueta%20informal" target="_blank" class="boton-wsp">
+          <i class="fab fa-whatsapp"></i> Comprar
+        </a>
+    </div>
+    <div class="producto">
+        <img src="chaqueta2.jpeg" alt="Chaqueta 2">
+        <h3>Chaqueta elegante</h3>
+        <p>$45.000</p>
+        <a href="https://wa.me/573243272424?text=Hola%20quiero%20comprar%20la%20Chaqueta%20elegante" target="_blank" class="boton-wsp">
+       <i class="fab fa-whatsapp"></i> Comprar
+      </a>
+    </div>
+    <div class="producto">
+        <img src="chaqueta3.jpeg" alt="Chaqueta 3">
+        <h3>Chaqueta con capucha</h3>
+        <p>$42.000</p>
+        <a href="https://wa.me/573243272424?text=Hola%20quiero%20comprar%20la%20Chaqueta%20con%20capucha" target="_blank" class="boton-wsp">
+          <i class="fab fa-whatsapp"></i> Comprar
+        </a>
+    </div>
+</div>
+</section>
+
+<section id="contacto">
+
+
+<h2>Contáctanos</h2>
+<form action="https://formspree.io/f/xwpoywze" method="POST" class="formulario-contacto">
+
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" required />
+  
+  <label for="email">Correo electrónico:</label>
+  <input type="email" id="email" name="email" required />
+
+  <label for="mensaje">Mensaje:</label>
+  <textarea name="mensaje" id="mensaje" rows="4" required></textarea>
+
+  <button type="submit">Enviar mensaje</button>
+</form>
+<p>Escríenos al correo: costurasmaravilla@gmail.com</p>
+</section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Costuras Maravilla. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
